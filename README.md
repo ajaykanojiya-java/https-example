@@ -13,3 +13,7 @@ To generate self signed certificate use below command in cmd
 #Keystore: to store private certificate i.e. internal server certificate
 
 Configured webhook to jenkins so that any commit happened to this repo, jenkins will start the build....
+
+resolved issue by providing public domain with the help of ngrok proxy agent software
+ Enter command >ngrok http 8080, it will generate http://{hexa-numbers}.ngrok.io copy the generated public address and put in your github repository webhook 
+ http://{hexa-numbers}.ngrok.io/github-webhook/.
