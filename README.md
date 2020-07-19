@@ -11,3 +11,5 @@ To generate self signed certificate use below command in cmd
 
 #TrustStor: to store public certificate. google.com certificate or load balancing certificate
 #Keystore: to store private certificate i.e. internal server certificate
+
+Configured webhook to jenkins so that any commit happened to this repo, jenkins will start the build
